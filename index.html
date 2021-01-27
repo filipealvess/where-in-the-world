@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Where in the world?</title>
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+	<!-- Style.css -->
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="content">
+			<header class="header">
+				<div class="header-content">
+					<h1 class="logo">Where in the world?</h1>
+
+					<button class="theme-switcher">
+						<i class="far fa-moon"></i>
+						<span class="theme">Dark Mode</span>
+					</button>
+				</div>
+			</header>
+
+			<section class="advanced-search">
+				<div class="search">
+					<i class="fas fa-search"></i>
+					<input type="text" class="search-field" placeholder="Search for a country...">
+				</div>
+
+				<div class="filter">
+					<div class="selected-option">All countries</div>
+					<ul class="list-options">
+						<li data-option="all" class="strong">All countries</li>
+						<li data-option="africa">Africa</li>
+						<li data-option="americas">Americas</li>
+						<li data-option="asia">Asia</li>
+						<li data-option="europe">Europe</li>
+						<li data-option="oceania">Oceania</li>
+					</ul>
+				</div>
+			</section>
+
+			<main role="main">
+				<section class="countries">
+					<!-- countries -->
+				</section>
+
+				<div class="not-found">
+					<p>Nothing was found. Try "Brazil".</p>
+				</div>
+			</main>
+		</div>
+
+		<section class="popup">
+			<div class="popup-content">
+				<button class="close">
+					<i class="fas fa-times"></i>
+				</button>
+
+				<div class="country-flag">
+					<!--<img src="https://restcountries.eu/data/bra.svg" alt="Brazil's flag">-->
+				</div>
+
+				<div class="country-informations">
+					<!--<p class="name">Brazil</p>
+
+					<p class="info">
+						<span class="strong">Native Name: </span>
+						Brasil
+					</p>
+					<p class="info">
+						<span class="strong">Top Level Domain: </span>
+						.br
+					</p>
+					<p class="info">
+						<span class="strong">Population: </span>
+						206.135.893
+					</p>
+					<p class="info">
+						<span class="strong">Currencies: </span>
+						Real
+					</p>
+					<p class="info">
+						<span class="strong">Region: </span>
+						Americas
+					</p>
+					<p class="info">
+						<span class="strong">Languages: </span>
+						Portuguese
+					</p>
+					<p class="info">
+						<span class="strong">Sub Region: </span>
+						South America
+					</p>
+					<p class="info">
+						<span class="strong">Capital: </span>
+						Brasília
+					</p>
+
+					<div class="border-countries">
+						<span class="strong">Border Countries: </span>
+						<span class="border-country">Argentina</span>
+						<span class="border-country">Colombia</span>
+						<span class="border-country">Peru</span>
+						<span class="border-country">Colombia</span>
+						<span class="border-country">Peru</span>
+					</div>-->
+				</div>
+			</div>
+		</section>
+
+		<div class="loader">
+			<span class="circle"></span>
+			<span class="circle"></span>
+			<span class="circle"></span>
+		</div>
+
+		<div class="successful-message">
+			<p class="message">All countries were loaded :)</p>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
