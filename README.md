@@ -7,10 +7,10 @@ Projeto criado com base no desafio ["Rest Countries API with color theme switche
 O desafio consiste em criar uma aplicação para listagem de países, permitindo busca e filtragem. As informações dos países são fornecidas pela API do [restcountries.eu](https://restcountries.eu), sendo necessário realizar requisições para obtê-las.
 
 ### ‍💻 Demonstração - Versão Desktop:
-![Gif da versão desktop do projeto](https://github.com/filipealvess/where-in-the-world/gifs/desktop.gif)
+![Gif da versão desktop do projeto](https://raw.githubusercontent.com/filipealvess/where-in-the-world/main/gifs/desktop.gif)
 
 ### 📱 Demonstração - Versão Mobile:
-![Gif da versão mobile do projeto](https://github.com/filipealvess/where-in-the-world/gifs/mobile.gif)
+![Gif da versão mobile do projeto](https://raw.githubusercontent.com/filipealvess/where-in-the-world/main/gifs/mobile.gif)
 
 ### ✔️ Extras:
 ---
